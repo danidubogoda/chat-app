@@ -52,7 +52,7 @@ public class ChatWSController extends TextWebSocketHandler {
                     }
                 }
             }else{
-                session.sendMessage(new TextMessage("Invalid n=message Schema"));
+                session.sendMessage(new TextMessage("Invalid message Schema"));
             }
 
         }catch (JacksonException exp){

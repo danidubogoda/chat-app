@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  font-family: Ubuntu, system-ui, "sans-serif";
+}
+
 #logo {
   width: 50px;
   height: 50px;
@@ -5,6 +10,17 @@
 
 #head {
   background-color: #267751;
+}
+
+.message {
+  color: #fff;
+  background-color: #3c186b;
+  border-radius: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  position: relative;
 }
 
 /*# sourceMappingURL=index.34df27b5.css.map */
